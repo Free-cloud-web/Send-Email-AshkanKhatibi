@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Send Email</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G6BG8KV70C"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-G6BG8KV70C');
+
+    // Track mailto opens
+    gtag('event', 'mailto_open', {
+      event_category: 'Email Campaign',
+      event_label: 'GitHub Redirect'
+    });
+  </script>
+
+  <!-- Redirect AFTER tracking -->
+  <meta http-equiv="refresh" content="0; url=mailto:support@instagram.com
+&subject=Urgent Review Request: Wrongful Suspension of an Artist’s Account
+&body=Dear Meta Support Team,%0D%0A%0D%0AWe are writing to respectfully request an urgent review of the suspension of the Instagram account belonging to Iranian actor Ashkan Khatibi.%0D%0A%0D%0AWe believe this account may have been removed or restricted by mistake. Mr. Khatibi is a well-known public figure whose content focuses on cultural, artistic, and social expression.%0D%0A%0D%0AAt a time when access to communication platforms is already limited for many Iranians, removing such voices has a serious impact. We kindly ask your team to review this case carefully and ensure no error has occurred.%0D%0A%0D%0AWe fully respect Instagram’s community guidelines. However, we also believe fair review and context are essential, especially in sensitive situations.%0D%0A%0D%0APlease review this account and consider restoring access if this suspension was made in error.%0D%0A%0D%0AThank you for your time and support.%0D%0A%0D%0ASincerely,%0D%0A">
+</head>
+
+<body>
+  <p>Sent! Thanks!</p>
+</body>
+</html>
